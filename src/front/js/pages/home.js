@@ -1,26 +1,38 @@
-import React, { useContext } from "react";
-import { Context } from "../store/appContext";
-import rigoImageUrl from "../../img/rigo-baby.jpg";
+import React from "react";
+import rigoImage from "../../img/perfil.jpg";
 import "../../styles/home.css";
-
-export const Home = () => {
-	const { store, actions } = useContext(Context);
-
-	return (
-		<div className="text-center mt-5">
-			<h1>Hello Rigo!!</h1>
-			<p>
-				<img src={rigoImageUrl} />
-			</p>
-			<div className="alert alert-info">
-				{store.message || "Loading message from the backend (make sure your python backend is running)..."}
-			</div>
-			<p>
-				This boilerplate comes with lots of documentation:{" "}
-				<a href="https://github.com/4GeeksAcademy/react-flask-hello/tree/95e0540bd1422249c3004f149825285118594325/docs">
-					Read documentation
-				</a>
-			</p>
-		</div>
-	);
-};
+import { About } from "../component/about";
+import { Header } from "../component/header";
+import { Project } from "../component/project";
+import { Skill } from "../component/skill";
+import { Contact } from "../component/contact";
+import { Nav } from "../component/nav";
+export const Home = () => (
+  <div className="row justify-content-center mb-5">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossOrigin="true"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=NTR&family=Short+Stack&display=swap"
+      rel="stylesheet"
+    />
+    <div className="container ">
+      <Header />
+    </div>
+    <div className="container-fluid about">
+      <About />
+    </div>
+    <div className="container-fluid project">
+      <Project />
+    </div>
+    <div className="container-fluid skill">
+      <Skill />
+    </div>
+    <div className="container-fluid contact">
+      <Contact />
+    </div>
+  </div>
+);
