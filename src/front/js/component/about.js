@@ -1,6 +1,6 @@
 import React from "react";
-import rigoImage from "../../img/perfil.jpg";
 import "../../styles/home.css";
+import profile from "../../img/perfil.jpg";
 
 export const About = () => (
   <div className="about container ">
@@ -19,7 +19,22 @@ export const About = () => (
           </svg>
         </div>
         <h1 className="title  fw-bold mb-3">Perfil</h1>
-        Full stack developer con estudios en sistemas y redes, disponiendo de  experiencia como técnico instalador electricista; con habilidades de cara al público tanto en mi lengua como en inglés. Crecer como desarrollador  y como persona en uno de mis objetivos de vida; trabajo en grupo y los retos son mis fortalezas.
+        <div className="row  textAbout">
+          <div className="d-flex justify-content-between">
+            Soy un Desarrollador Full-Stack en React.js y Python/Flask con
+            experiencia en sistemas, redes e instalaciones electricista. También
+            tengo experiencia laboral en puestos de cara al público, tanto en
+            inglés como en español. Mi deseo es seguir creciendo como
+            desarrollador y como persona mediante el trabajo en equipo y
+            afrontando retos que permitan superar me cada día.{" "}
+            <img
+              className="img-fluid rounded float-start rounded-circle border border-warning m-2"
+              src={profile}
+              alt="Bootstrap"
+              style={{ width: "auto", height: "350px" }}
+            />
+          </div>
+        </div>
       </div>
     </div>
   </div>
