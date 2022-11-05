@@ -74,6 +74,10 @@
 .jumbotron {
   font-family: "Anton", sans-serif;
 }
+.line {
+  height: 2px;
+  background-color: #f2ce55;
+}
 /*
 .jumbImg {
   *object-fit: none;
