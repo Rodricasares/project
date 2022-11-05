@@ -55,7 +55,7 @@ body {
   transform: scale(1.8);
 }
 .card-title {
-  font-family: "Architects Daughter", cursive;
+  font-family: "Anton", sans-serif;
   color: #f2ce55;
 }
 
@@ -80,7 +80,7 @@ body {
 /*TITLE*/
 /*Titulo de los apartados, con efecto hover & after bajo el texto*/
 .title {
-  font-family: "Anton", sans-serif;
+  font-family: "Oswald", sans-serif;
   color: #030405;
   font-size: 55px;
   display: inline-block;

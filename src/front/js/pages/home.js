@@ -17,7 +17,7 @@ export const Home = () => (
       crossOrigin="true"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&family=Oswald&family=Spline+Sans+Mono:wght@300&display=swap"
       rel="stylesheet"
     />
     <div className="container-fluid">
