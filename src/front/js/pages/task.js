@@ -39,9 +39,9 @@ export const Task = () => {
                 más recientemente con software de autoedición, como por ejemplo
                 Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
               </div>
-              <div class="col-sm-4   taskText">
+              <div class="col-sm-4">
                 <img
-                  className="img-fluid rounded-5 mt-2 cover"
+                  className="img-fluid rounded-5 mt-3 cover"
                   src={rigoImage}
                 />{" "}
               </div>
