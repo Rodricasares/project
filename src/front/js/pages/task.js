@@ -20,34 +20,39 @@ export const Task = () => {
         href="https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&family=Oswald&family=Spline+Sans+Mono:wght@300&display=swap"
         rel="stylesheet"
       />
-      <h1 className="title  fw-bold m-3">TRAVEL 360º</h1>
+      <h1 className="title  fw-bold m-5">TRAVEL 360º</h1>
       <div className="row mt-5">
         <div className="col-md-6 offset-md-3">
-          <div className="d-flex justify-content-between jbtText">
-            Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-            archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar
-            de las industrias desde el año 1500, cuando un impresor (N. del T.
-            persona que se dedica a la imprenta) desconocido usó una galería de
-            textos y los mezcló de tal manera que logró hacer un libro de textos
-            especimen. No sólo sobrevivió 500 años, sino que tambien ingresó
-            como texto de relleno en documentos electrónicos, quedando
-            esencialmente igual al original. Fue popularizado en los 60s con la
-            creación de las hojas "Letraset", las cuales contenian pasajes de
-            Lorem Ipsum, y más recientemente con software de autoedición, como
-            por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem
-            Ipsum.
-            <img
-              className="img-fluid rounded-5 ms-5"
-              src={rigoImage}
-              style={{ width: "50%", height: "auto" }}
-            />{" "}
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8  taskText">
+                <strong>Lorem Ipsum </strong>es simplemente el texto de relleno
+                de las imprentas y archivos de texto. Lorem Ipsum ha sido el
+                texto de relleno estándar de las industrias desde el año 1500,
+                cuando un impresor (N. del T. persona que se dedica a la
+                imprenta) desconocido usó una galería de textos y los mezcló de
+                tal manera que logró hacer un libro de textos especimen. No sólo
+                sobrevivió 500 años, sino que tambien ingresó como texto de
+                relleno en documentos electrónicos, quedando esencialmente igual
+                al original. Fue popularizado en los 60s con la creación de las
+                hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y
+                más recientemente con software de autoedición, como por ejemplo
+                Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+              </div>
+              <div class="col-sm-4   taskText">
+                <img
+                  className="img-fluid rounded-5 mt-2 cover"
+                  src={rigoImage}
+                />{" "}
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div className="col-md-6 offset-md-3 mt-5">
         {" "}
         <a
-          className="btn btn-outline-warning text-center"
+          className="btn btn-outline-warning text-center m-2"
           href="https://shrouded-tor-74296.herokuapp.com/"
           target="_blank"
         >
@@ -85,43 +90,43 @@ export const Task = () => {
       <div className="col-md-6 offset-md-3  mt-5 line"></div>
 
       <div className="col-md-6 offset-md-3 ">
-        <div class="row align-items-start ">
-          <div class="col">
+        <div className="row align-items-start ms-4">
+          <div className="col">
             {" "}
             <p className="fw-bold mt-3">
               <strong>Autores</strong>
             </p>
-            <p class="fw-normal">Jose Luis Medina</p>
-            <p class="fw-normal">Rodrigo Cantudo</p>
+            <p className="fw-normal">Jose Luis Medina</p>
+            <p className="fw-normal">Rodrigo Cantudo</p>
           </div>
-          <div class="col">
+          <div className="col">
             {" "}
             <p className="fw-bold mt-3">
               <strong>Librerías</strong>
             </p>
-            <p class="fw-normal">JWT with Flask</p>
-            <p class="fw-normal">Cloudinary</p>
+            <p className="fw-normal">JWT with Flask</p>
+            <p className="fw-normal">Cloudinary</p>
           </div>
-          <div class="col">
+          <div className="col">
             {" "}
             <p className="fw-bold mt-3">
               <strong>Código</strong>
             </p>
-            <p class="fw-normal">React.Js</p>
-            <p class="fw-normal">Python/Flask</p>
-            <p class="fw-normal">Bootstrap</p>
-            <p class="fw-normal">Css</p>
+            <p className="fw-normal">React.Js</p>
+            <p className="fw-normal">Python/Flask</p>
+            <p className="fw-normal">Bootstrap</p>
+            <p className="fw-normal">Css</p>
           </div>
-          <div class="col">
+          <div className="col">
             {" "}
             <p className="fw-bold mt-3">
               <strong>Herramientas</strong>
             </p>
-            <p class="fw-normal">Trello</p>
-            <p class="fw-normal">Figma</p>
-            <p class="fw-normal">GitHub</p>
-            <p class="fw-normal">Gitpod</p>
-            <p class="fw-normal">Heroku</p>
+            <p className="fw-normal">Trello</p>
+            <p className="fw-normal">Figma</p>
+            <p className="fw-normal">GitHub</p>
+            <p className="fw-normal">Gitpod</p>
+            <p className="fw-normal">Heroku</p>
           </div>
         </div>
       </div>

@@ -44,7 +44,7 @@ export const Project = () => (
                   <Link to="/task">
                     <button
                       type="button"
-                      className="btn btn-outline-info"
+                      className="btn btn-info"
                       data-toggle="modal"
                       data-target="#exampleModal"
                     >
