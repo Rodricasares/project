@@ -43,7 +43,9 @@ body {
   background-color: #fffdf7;
   font-family: "NTR", sans-serif;
 }
+
 /*CONTACT//CARDS */
+
 .card {
   transition: transform 0.2s;
 }
@@ -61,7 +63,7 @@ body {
   transform: scale(1.8);
 }
 .card-title {
-  font-family: "Anton", sans-serif;
+  font-family: "Oswald", sans-serif;
   color: #020202;
 }
 
@@ -114,6 +116,7 @@ body {
 
 /*CONTACT*/
 .contact {
+  margin-top: 180px;
   background-color: #fffdf7;
   font-family: "NTR", sans-serif;
 }

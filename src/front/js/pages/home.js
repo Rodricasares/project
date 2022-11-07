@@ -23,7 +23,6 @@ export const Home = () => (
     <div className="container-fluid">
       <Header />
     </div>
-
     <div className="container-fluid about">
       <About />
     </div>

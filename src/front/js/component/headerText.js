@@ -45,7 +45,7 @@ export const HeaderText = () => (
     <div className="row">
       <h1 className="headOne col-md-6 offset-md-3">Rodrigo Cantudo</h1>
       <p className="headTwo col-md-6 offset-md-3">
-        I'm a Develover
+        I'm a Developer
         <Typical
           className="typical"
           loop={Infinity}

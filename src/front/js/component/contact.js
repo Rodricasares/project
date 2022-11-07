@@ -114,7 +114,7 @@ export const Contact = () => (
                     aria-label="With textarea"
                   ></textarea>
                 </div>
-                <button type="submit" className="btn btn-outline-info mt-3">
+                <button type="submit" className="btn btn-outline-warning mt-3">
                   Info
                 </button>
               </div>
