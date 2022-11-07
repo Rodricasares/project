@@ -4,8 +4,8 @@ import "../../styles/skill.css";
 import { motion } from "framer-motion";
 
 export const Skill = () => (
-  <div className="skill container ">
-    <div className="row ">
+  <div className=" skill container ">
+    <div className="row  text-secondary">
       <div className="col text-secondary">
         <div className="row mt-5 ">
           <svg

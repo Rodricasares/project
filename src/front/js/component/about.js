@@ -20,9 +20,9 @@ export const About = () => (
         </div>
         <h1 className="title  fw-bold mb-3">Perfil</h1>
 
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8 textAbout">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-8 textAbout">
               Soy un Desarrollador Full-Stack en React.js y Python/Flask con
               experiencia en sistemas, redes e instalaciones electricista.
               También tengo experiencia laboral en puestos de cara al público,
@@ -30,7 +30,7 @@ export const About = () => (
               desarrollador y como persona mediante el trabajo en equipo y
               afrontando retos que permitan superar me cada día.
             </div>
-            <div class="col-sm-4 ">
+            <div className="col-sm-4 ">
               <img
                 className="img-fluid rounded rounded-circle border border-warning "
                 src={profile}

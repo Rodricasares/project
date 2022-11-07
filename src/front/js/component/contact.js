@@ -19,7 +19,7 @@ export const Contact = () => (
           </svg>
 
           <form
-            action="https://formsubmit.co/4dec7747a969da51e171c170dafdf32f"
+            action="https://formsubmit.co/rodrigocantudo@gmail.com"
             method="POST"
           >
             {" "}

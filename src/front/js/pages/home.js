@@ -29,7 +29,7 @@ export const Home = () => (
     <div className="container-fluid project">
       <Project />
     </div>
-    <div className="container-fluid skill">
+    <div className="container-fluid skillHome">
       <Skill />
     </div>
     <div className="container-fluid contact">
