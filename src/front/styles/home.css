@@ -114,17 +114,6 @@ body {
   transform-origin: bottom left;
 }
 
-/*CONTACT*/
-.contact {
-  margin-top: 180px;
-  background-color: #fffdf7;
-  font-family: "NTR", sans-serif;
-}
-/*Boton contactos*/
-.send {
-  color: #a8903d;
-}
-
 /*Skill background*/
 .skillHome {
   background-image: url("https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
@@ -134,5 +123,25 @@ body {
   -o-background-size: cover;
   background-size: cover;
   height: 600px;
-  opacity: 90%;
+  *opacity: 90%;
+}
+
+/* CONTACT  CONTACT  CONTACT  CONTACT  CONTACT  CONTACT */
+.contact {
+  margin-top: 180px;
+  background-color: #fffdf7;
+  font-family: "NTR", sans-serif;
+}
+/*Boton contactos*/
+.send {
+  color: #a8903d;
+}
+.iconContact {
+  color: #f2ce55;
+}
+
+.formInput {
+  font-family: "Oswald", sans-serif;
+  color: #030405;
+  font-size: 22px;
 }
