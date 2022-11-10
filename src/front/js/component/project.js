@@ -1,6 +1,8 @@
 import React from "react";
 import rigoImage from "../../img/project.jpg";
 import travel from "../../img/travel.png";
+import login from "../../img/login.png";
+
 import { Link } from "react-router-dom";
 import "../../styles/home.css";
 
@@ -74,12 +76,12 @@ export const Project = () => (
               style={{ width: "auto", height: "250px" }}
             >
               <div className="overflow">
-                <img className="card-img-top proj" src={travel} />
+                <img className="card-img-top proj" src={login} />
               </div>
               <div className="card-body">
                 <div className="d-flex justify-content-between">
                   <h3 className="card-title">
-                    <strong>Travel 360º</strong>
+                    <strong>Authentication-With-Flask-React.js</strong>
                   </h3>
 
                   <Link to="/task">

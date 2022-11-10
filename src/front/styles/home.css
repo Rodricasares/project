@@ -28,7 +28,7 @@ body {
 }
 
 .perfil {
-  *object-fit: cover;
+  object-fit: cover;
   *object-position: bottom;
 }
 

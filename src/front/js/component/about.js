@@ -32,10 +32,10 @@ export const About = () => (
             </div>
             <div className="col-sm-4 ">
               <img
-                className="img-fluid rounded rounded-circle border border-warning "
+                className="img-fluid rounded rounded-circle border border-warning perfil mt-3 "
                 src={profile}
                 alt="Bootstrap"
-                style={{ width: "auto", height: "350px" }}
+                style={{ width: "auto", height: "300px" }}
               />
             </div>
           </div>
