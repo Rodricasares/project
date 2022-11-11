@@ -7,9 +7,8 @@ import { Demo } from "./pages/demo";
 import { Single } from "./pages/single";
 import { Task } from "./pages/task";
 import { TaskOne } from "./pages/taskOne";
-
+import { TaskTwo } from "./pages/taskTwo";
 import injectContext from "./store/appContext";
-
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
 
@@ -28,6 +27,7 @@ const Layout = () => {
             <Route element={<Demo />} path="/demo" />
             <Route element={<Task />} path="/task" />
             <Route element={<TaskOne />} path="/taskOne" />
+            <Route element={<TaskTwo />} path="/taskTwo" />
             <Route element={<Single />} path="/single/:theid" />
             <Route element={<h1> Not found! </h1>} />
           </Routes>{" "}

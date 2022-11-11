@@ -1,12 +1,11 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 import "../../styles/skill.css";
-import rigoImage from "../../img/travel.png";
+import rigoImage from "../../img/throne.png";
 
 import { Context } from "../store/appContext";
 
-export const Task = ( ) => {
-  
+export const TaskTwo = () => {
   const { store, actions } = useContext(Context);
 
   return (
@@ -21,7 +20,7 @@ export const Task = ( ) => {
         href="https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&family=Oswald&family=Spline+Sans+Mono:wght@300&display=swap"
         rel="stylesheet"
       />
-      <h1 className="title  fw-bold m-5">TRAVEL 360º</h1>
+      <h1 className="title  fw-bold m-5">Game of throners API</h1>
       <div className="row mt-5">
         <div className="col-md-6 offset-md-3">
           <div class="container">
@@ -54,7 +53,7 @@ export const Task = ( ) => {
         {" "}
         <a
           className="btn btn-outline-warning text-center m-2"
-          href="https://shrouded-tor-74296.herokuapp.com/"
+          href="https://game-of-throners-api-i2qm.vercel.app/"
           target="_blank"
         >
           <svg
@@ -71,7 +70,7 @@ export const Task = ( ) => {
         </a>{" "}
         <a
           className="btn btn-outline-dark text-center"
-          href="https://github.com/Rodricasares/Final-Project-4Geeks-Academy"
+          href="hhttps://game-of-throners-api-i2qm.vercel.app/"
           target="_blank"
         >
           <svg
@@ -95,7 +94,7 @@ export const Task = ( ) => {
           <div className="col">
             {" "}
             <p className="fw-bold mt-3">
-              <strong>Autores</strong>
+              <strong>Autor</strong>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -107,7 +106,6 @@ export const Task = ( ) => {
                 <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
               </svg>
             </p>
-            <p className="fw-normal">Jose Luis Medina</p>
             <p className="fw-normal">Rodrigo Cantudo</p>
           </div>
           <div className="col">
@@ -126,8 +124,7 @@ export const Task = ( ) => {
                 <path d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z" />
               </svg>
             </p>
-            <p className="fw-normal">JWT with Flask</p>
-            <p className="fw-normal">Cloudinary</p>
+            <p className="fw-normal">npm frame-motion</p>
           </div>
           <div className="col">
             {" "}
@@ -145,7 +142,6 @@ export const Task = ( ) => {
               </svg>
             </p>
             <p className="fw-normal">React.Js</p>
-            <p className="fw-normal">Python/Flask</p>
             <p className="fw-normal">Bootstrap</p>
             <p className="fw-normal">Css</p>
           </div>
@@ -164,11 +160,9 @@ export const Task = ( ) => {
                 <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0Zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708ZM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11Z" />
               </svg>
             </p>
-            <p className="fw-normal">Trello</p>
-            <p className="fw-normal">Figma</p>
             <p className="fw-normal">GitHub</p>
             <p className="fw-normal">Gitpod</p>
-            <p className="fw-normal">Heroku</p>
+            <p className="fw-normal">Vercel</p>
           </div>
         </div>
       </div>

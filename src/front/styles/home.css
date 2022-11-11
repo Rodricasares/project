@@ -63,6 +63,7 @@ body {
   transform: scale(1.8);
 }
 .card-title {
+  font-size: 22px;
   font-family: "Oswald", sans-serif;
   color: #020202;
 }

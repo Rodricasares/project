@@ -2,6 +2,8 @@ import React from "react";
 import rigoImage from "../../img/project.jpg";
 import travel from "../../img/travel.png";
 import login from "../../img/login.png";
+import throne from "../../img/throne.png";
+
 
 import { Link } from "react-router-dom";
 import "../../styles/home.css";
@@ -81,10 +83,10 @@ export const Project = () => (
               <div className="card-body">
                 <div className="d-flex justify-content-between">
                   <h3 className="card-title">
-                    <strong>Authentication-With-Flask-React.js</strong>
+                    <strong>Authentication With Flask React.js</strong>
                   </h3>
 
-                  <Link to="/task">
+                  <Link to="/taskOne">
                     <button
                       type="button"
                       className="btn btn-warning"
@@ -117,15 +119,15 @@ export const Project = () => (
               style={{ width: "auto", height: "250px" }}
             >
               <div className="overflow">
-                <img className="card-img-top proj" src={travel} />
+                <img className="card-img-top proj" src={throne} />
               </div>
               <div className="card-body">
                 <div className="d-flex justify-content-between">
                   <h3 className="card-title">
-                    <strong>Travel 360º</strong>
+                    <strong>Game of throners API</strong>
                   </h3>
 
-                  <Link to="/task">
+                  <Link to="/taskTwo">
                     <button
                       type="button"
                       className="btn btn-warning"
