@@ -3,6 +3,10 @@ import rigoImage from "../../img/project.jpg";
 import travel from "../../img/travel.png";
 import login from "../../img/login.png";
 import throne from "../../img/throne.png";
+import wars from "../../img/wars.png";
+import gallery from "../../img/gallery.png";
+import portfolio from "../../img/portfolio.png";
+
 
 
 import { Link } from "react-router-dom";
@@ -11,6 +15,7 @@ import "../../styles/home.css";
 export const Project = () => (
   <div className="project container ">
     <div className="row ">
+      {/**Line1 projects */}
       <div className="col text-secondary">
         <div className="row mt-5 ">
           <svg
@@ -29,9 +34,14 @@ export const Project = () => (
             <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" />
           </svg>
         </div>
-        <h1 className="title fw-bold mb-3">Proyectos</h1>
-        <div className="row align-items-center">
-          <div className="col m-4">
+        <h1 className="title fw-bold mb-5">Proyectos</h1>
+
+      {/*******CARDS LINE ONE**********/}
+
+      <div className="container text-center">
+       <div className="row align-items-center">
+        {/*CARD_1 */}
+          <div className="col">
             <div
               className="card shadow-lg  mb-5 bg-body rounded"
               style={{ width: "auto", height: "250px" }}
@@ -72,7 +82,7 @@ export const Project = () => (
 
           {/* CARD2  */}
 
-          <div className="col m-4">
+          <div className="col">
             <div
               className="card shadow-lg  mb-5 bg-body rounded"
               style={{ width: "auto", height: "250px" }}
@@ -82,9 +92,11 @@ export const Project = () => (
               </div>
               <div className="card-body">
                 <div className="d-flex justify-content-between">
-                  <h3 className="card-title">
-                    <strong>Authentication With Flask React.js</strong>
-                  </h3>
+                  <h4 className="card-title">
+                  <strong>Authentication With Flask React.js</strong>
+                  </h4>
+
+               
 
                   <Link to="/taskOne">
                     <button
@@ -113,7 +125,7 @@ export const Project = () => (
 
           {/*CARD3*/}
 
-          <div className="col m-4">
+          <div className="col">
             <div
               className="card shadow-lg  mb-5 bg-body rounded"
               style={{ width: "auto", height: "250px" }}
@@ -152,6 +164,141 @@ export const Project = () => (
             </div>
           </div>
         </div>
+
+
+{/*********************************************CARDS LINE TWO***************************/}
+
+
+          {/* CARD4  */}
+<div className="row align-items-center">
+          <div className="col m-1">
+            <div
+              className="card shadow-lg  mb-5 bg-body rounded"
+              style={{ width: "auto", height: "250px" }}
+            >
+              <div className="overflow">
+                <img className="card-img-top proj" src={wars} />
+              </div>
+              <div className="card-body">
+                <div className="d-flex justify-content-between">
+                  <h3 className="card-title">
+                    <strong>Star Wars API</strong>
+                  </h3>
+
+                  <Link to="/taskThree">
+                    <button
+                      type="button"
+                      className="btn btn-warning"
+                      data-toggle="modal"
+                      data-target="#exampleModal"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        className="bi bi-info-circle"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                      </svg>
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* CARD5 */}
+
+          <div className="col m-1">
+            <div
+              className="card shadow-lg  mb-5 bg-body rounded"
+              style={{ width: "auto", height: "250px" }}
+            >
+              <div className="overflow">
+                <img className="card-img-top proj" src={gallery} />
+              </div>
+              <div className="card-body">
+                <div className="d-flex justify-content-between">
+                  <h3 className="card-title">
+                  <strong>Gallery Pictures</strong>
+                  </h3>
+
+               
+
+                  <Link to="/taskFour">
+                    <button
+                      type="button"
+                      className="btn btn-warning"
+                      data-toggle="modal"
+                      data-target="#exampleModal"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        className="bi bi-info-circle"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                      </svg>
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/*CARD6*/}
+
+          <div className="col m-1">
+            <div
+              className="card shadow-lg  mb-5 bg-body rounded"
+              style={{ width: "auto", height: "250px" }}
+            >
+              <div className="overflow">
+                <img className="card-img-top proj" src={portfolio} />
+              </div>
+              <div className="card-body">
+                <div className="d-flex justify-content-between">
+                  <h3 className="card-title">
+                    <strong>Portfolio</strong>
+                  </h3>
+
+                  <Link to="/taskFive">
+                    <button
+                      type="button"
+                      className="btn btn-warning"
+                      data-toggle="modal"
+                      data-target="#exampleModal"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        className="bi bi-info-circle"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                      </svg>
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+
+
+
       </div>
     </div>
   </div>

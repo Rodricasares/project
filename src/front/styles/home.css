@@ -14,7 +14,8 @@ body {
   background-color: #fffdf7;
   font-size: large;
 }
-/*ABOUT*/
+
+/*******ABOUT********ABOUT********ABOUT********ABOUT********ABOUT****/
 
 .about {
   margin-top: 320px;
@@ -36,7 +37,7 @@ body {
   color: #f2ce55;
   margin-bottom: 50px;
 }
-/*PROJECT*/
+/***PROJECT******PROJECT******PROJECT******PROJECT******PROJECT******/
 
 .project {
   margin-top: 70px;
@@ -44,7 +45,7 @@ body {
   font-family: "NTR", sans-serif;
 }
 
-/*CONTACT//CARDS */
+/***CONTACT***//***CARDS ***/
 
 .card {
   transition: transform 0.2s;
@@ -63,7 +64,7 @@ body {
   transform: scale(1.8);
 }
 .card-title {
-  font-size: 22px;
+  *font-size: 22px;
   font-family: "Oswald", sans-serif;
   color: #020202;
 }
@@ -124,6 +125,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   height: 600px;
+  margin-top: 110px;
   *opacity: 90%;
 }
 

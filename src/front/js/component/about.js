@@ -30,7 +30,7 @@ export const About = () => (
               desarrollador y como persona mediante el trabajo en equipo y
               afrontando retos que permitan superar me cada día.
             </div>
-            <div className="col-sm-4 ">
+            <div className="col-sm-4">
               <img
                 className="img-fluid rounded rounded-circle border border-warning perfil mt-3 "
                 src={profile}
