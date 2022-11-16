@@ -17,10 +17,12 @@ export const Contact = () => (
           >
             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
           </svg>
+ {/*FORM**FORMFORM**FORMFORM**FORMFORM**FORMFORM**FORMFORM**FORMFORM**FORMFORM**FORMFORM**FORMFORM**FORMFORM**FORMFORM**FORMFORM**FORMFORM**FORMFORM**FORM*/}
+          
 
-          <form
-          action="https://formsubmit.co/4dec7747a969da51e171c170dafdf32f" method="POST"
-          >
+ <form target="_blank" 
+          action="https://formsubmit.co/4dec7747a969da51e171c170dafdf32f"  method="POST"
+          >                             
             {" "}
             <h1 className="title  fw-bold mb-3">Contactar</h1>
             <div className="col-md-6 offset-md-3 text-secondary">
@@ -40,7 +42,7 @@ export const Contact = () => (
                     <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
                   </svg>
                 </span>
-                             <input
+                  <input
                   type="text"
                   name="name"
                   className="form-control border border-0  bg-transparent formInput"
@@ -68,6 +70,7 @@ export const Contact = () => (
                     <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z" />
                   </svg>
                 </span>
+                
                 <input
                   type="email"
                   name="email"
@@ -118,13 +121,8 @@ export const Contact = () => (
                       <path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z" />
                     </svg>
                   </span>
-                  <textarea
-                    className="form-control border-0 bg-transparent formInput"
-                    name="message"
-                    aria-label="With textarea"
-                    placeholder="Text"
-                    aria-describedby="basic-addon1"
-                  ></textarea>
+                  <textarea placeholder="Your Message" className="form-control border-0 bg-transparent formInput" name="message"  required></textarea>
+
                 </div>
               </div>
             </div>
@@ -145,16 +143,19 @@ export const Contact = () => (
             </div>
           </form>
   
-            {/*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*/}
 
-            <div class="col-md-6 offset-md-3 socialButton"><a
+
+
+{/*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*/}
+
+            <div className="col-md-6 offset-md-3 socialButton"><a
         type="button"
         className="btn btn-danger m-4 rounded-circle"
         href="https://drive.google.com/file/d/1wHJ811HHx_J-83zxSEggyuZNLvo5ofgR/view?usp=sharing"
         download="CvRodrigo"
         target="_blank"
       >
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-arrow-down" viewBox="0 0 16 16">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-file-earmark-arrow-down" viewBox="0 0 16 16">
   <path d="M8.5 6.5a.5.5 0 0 0-1 0v3.793L6.354 9.146a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 10.293V6.5z"/>
   <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
 </svg>
