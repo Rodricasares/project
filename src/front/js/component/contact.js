@@ -126,7 +126,7 @@ export const Contact = () => (
                 </div>
               </div>
             </div>
-            <div className="col-md-6 offset-md-3 my-3">
+            <div className="col-md-6 offset-md-3 mt-3">
                      <button type="submit" className="btn btn-dark mt-3 float-end">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -142,13 +142,10 @@ export const Contact = () => (
             </button>
             </div>
           </form>
-  
-
-
 
 {/*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*/}
 
-            <div className="col-md-6 offset-md-3 socialButton"><a
+            <div className="col-md-6 offset-md-3 text-center socialButton"><a
         type="button"
         className="btn btn-danger m-4 rounded-circle"
         href="https://drive.google.com/file/d/1wHJ811HHx_J-83zxSEggyuZNLvo5ofgR/view?usp=sharing"
