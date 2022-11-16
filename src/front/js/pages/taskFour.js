@@ -27,24 +27,15 @@ export const TaskFour = () => {
   <img src={rigoImage} className="col-md-6 float-md-end mb-3 ms-md-3 img-fluid" alt="..."/>
 
   <p className="taskText">
-  <strong>Lorem Ipsum </strong>es simplemente el texto de relleno
-                de las imprentas y archivos de texto. Lorem Ipsum ha sido el
-                texto de relleno estándar de las industrias desde el año 1500,
-                cuando un impresor (N. del T. persona que se dedica a la
-                imprenta) desconocido usó una galería de textos y los mezcló de
-                tal manera que logró hacer un libro de textos especimen.  </p>
+  <strong>Mini-proyecto </strong>
+que realice al conocer la librería framer-motion.
+</p>
 
   <p className="taskText">
-  No sólo
-                sobrevivió 500 años, sino que tambien ingresó como texto de
-                relleno en documentos electrónicos, quedando esencialmente igual
-                al original. Fue popularizado en los 60s con la creación de las
-                hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y
-                más recientemente con software de autoedición, como por ejemplo
-                Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.  </p>
+  Esta galería está desarrollada con React.js y la librería framer-motion.  </p>
 
   <p className="taskText"> 
-Rodrigo Cantudo  </p>
+  Como se puede observar esta librería crea un aspecto muy profesional a tus proyectos, en la que se puede aplicar a muchos componentes como catálogos, galerías, card, etc … en los proyectos que puedas desarrollar.  </p>
 </div>
 
 

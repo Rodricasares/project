@@ -27,24 +27,15 @@ export const TaskTwo = () => {
   <img src={rigoImage} className="col-md-6 float-md-end mb-3 ms-md-3 img-fluid" alt="..."/>
 
   <p className="taskText">
-  <strong>Lorem Ipsum </strong>es simplemente el texto de relleno
-                de las imprentas y archivos de texto. Lorem Ipsum ha sido el
-                texto de relleno estándar de las industrias desde el año 1500,
-                cuando un impresor (N. del T. persona que se dedica a la
-                imprenta) desconocido usó una galería de textos y los mezcló de
-                tal manera que logró hacer un libro de textos especimen.  </p>
+  <strong>Como buen fan </strong>de la famosa serie juego de tronos no pude resistirme al ver esta API Rest. 
+ </p>
 
   <p className="taskText">
-  No sólo
-                sobrevivió 500 años, sino que tambien ingresó como texto de
-                relleno en documentos electrónicos, quedando esencialmente igual
-                al original. Fue popularizado en los 60s con la creación de las
-                hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y
-                más recientemente con software de autoedición, como por ejemplo
-                Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.  </p>
+  La desarrolle con React.js en la que también utilice la librería framer-motion, la cual me gusta mucho por su facilidad al implementó y el diseño aporta una visualización bastante profesional  en los proyectos.
+  </p>
 
   <p className="taskText"> 
-Rodrigo Cantudo  </p>
+  En esta API podrás disfrutar de los personajes de la serie con información detallada de cada uno, cuando hagas clic sobre alguna de las cards situadas en el slider se cargará la información detallada del mismo en la card superior, espero que os guste !!!</p>
 </div>
 
 
@@ -53,7 +44,7 @@ Rodrigo Cantudo  </p>
 
 
       <div className="col-md-8 offset-md-1 mt-5">
-        {" "}
+     
         <a
           className="btn btn-outline-warning text-center m-2"
           href="https://game-of-throners-api-i2qm.vercel.app/"

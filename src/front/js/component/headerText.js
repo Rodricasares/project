@@ -1,5 +1,4 @@
 import React from "react";
-import cv from "../../img/cvRodrigo.jpg";
 import "../../styles/headerText.css";
 import Typical from "react-typical";
 

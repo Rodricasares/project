@@ -1,0 +1,23 @@
+/* 
+    General Styles used on every website (Don't Repeat Yourself)
+*/
+/*///////////////////////TASK\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+/*Task*/
+
+.line {
+    height: 2px;
+    background-color: #f2ce55;
+  }
+  
+  .taskText {
+    font-size: 30px;
+    font-family: "Architects Daughter", cursive;
+  }
+  .cover {
+    *float: left;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  

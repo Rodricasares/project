@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 import "../../styles/skill.css";
 import rigoImage from "../../img/travel.png";
-
+import "../../styles/task.css";
 import { Context } from "../store/appContext";
 
 export const Task = ( ) => {
@@ -28,24 +28,17 @@ export const Task = ( ) => {
   <img src={rigoImage} className="col-md-6 float-md-end mb-3 ms-md-3 img-fluid" alt="..."/>
 
   <p className="taskText">
-  <strong>Lorem Ipsum </strong>es simplemente el texto de relleno
-                de las imprentas y archivos de texto. Lorem Ipsum ha sido el
-                texto de relleno estándar de las industrias desde el año 1500,
-                cuando un impresor (N. del T. persona que se dedica a la
-                imprenta) desconocido usó una galería de textos y los mezcló de
-                tal manera que logró hacer un libro de textos especimen.  </p>
+  <h2><strong>Travel 360º</strong></h2>, proyecto que tuve el placer de compartir con mi compañero Jose Medina. Un MVP basado en una red social en la que podrás disfrutar de la tan novedosa tecnología Realidad virtual. En ella podrás interactuar tanto si haces login o no, pero en caso de que quieras compartir tus propias experiencias con los usuarios de la red deberás hacer el registro y login en Travel 360, también podrás comentarlos y por supuesto darles al botón  like. 
+
+  </p>
 
   <p className="taskText">
-  No sólo
-                sobrevivió 500 años, sino que tambien ingresó como texto de
-                relleno en documentos electrónicos, quedando esencialmente igual
-                al original. Fue popularizado en los 60s con la creación de las
-                hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y
-                más recientemente con software de autoedición, como por ejemplo
-                Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.  </p>
+  
 
-  <p className="taskText"> 
-Rodrigo Cantudo  </p>
+El proyecto fue desarrollado tanto en frontend como backend. El frontend está desarrollado con Figma para el diseño, en desarrollo está realizado con framework React/Flask, el código que implementamos fue: React.js, Css, Bootstrap. En el backend fue desarrollado con python/flask y en que implementamos también Cloudinary, un host en el que te permite alojar imágenes, archivos y videos, para reducir el consumo de recursos de nuestro proyecto el cual esta alojado en Heroku. 
+  </p>
+
+ 
 </div>
 {/*********************************************************/}
       <div className="col-md-8 offset-md-1 mt-5">
