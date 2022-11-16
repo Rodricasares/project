@@ -15,7 +15,6 @@ import "../../styles/home.css";
 export const Project = () => (
   <div className="project container ">
     <div className="row ">
-      {/**Line1 projects */}
       <div className="col text-secondary">
         <div className="row mt-5 ">
           <svg
@@ -58,7 +57,7 @@ export const Project = () => (
                   <Link to="/task">
                     <button
                       type="button"
-                      className="btn btn-warning"
+                      className="btn btn-warning rounded-circle"
                       data-toggle="modal"
                       data-target="#exampleModal"
                     >
@@ -101,7 +100,7 @@ export const Project = () => (
                   <Link to="/taskOne">
                     <button
                       type="button"
-                      className="btn btn-warning"
+                      className="btn btn-warning rounded-circle"
                       data-toggle="modal"
                       data-target="#exampleModal"
                     >
@@ -142,7 +141,7 @@ export const Project = () => (
                   <Link to="/taskTwo">
                     <button
                       type="button"
-                      className="btn btn-warning"
+                      className="btn btn-warning rounded-circle"
                       data-toggle="modal"
                       data-target="#exampleModal"
                     >
@@ -188,7 +187,7 @@ export const Project = () => (
                   <Link to="/taskThree">
                     <button
                       type="button"
-                      className="btn btn-warning"
+                      className="btn btn-warning rounded-circle"
                       data-toggle="modal"
                       data-target="#exampleModal"
                     >
@@ -231,7 +230,7 @@ export const Project = () => (
                   <Link to="/taskFour">
                     <button
                       type="button"
-                      className="btn btn-warning"
+                      className="btn btn-warning rounded-circle"
                       data-toggle="modal"
                       data-target="#exampleModal"
                     >
@@ -272,7 +271,7 @@ export const Project = () => (
                   <Link to="/taskFive">
                     <button
                       type="button"
-                      className="btn btn-warning"
+                      className="btn btn-warning rounded-circle"
                       data-toggle="modal"
                       data-target="#exampleModal"
                     >

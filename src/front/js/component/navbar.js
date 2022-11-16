@@ -9,7 +9,7 @@ export const Navbar = () => {
         <div className="d-flex flex-column mb-3 fixed-bottom">
           <button
             type="button"
-            className="menu"
+            className="rounded-circle"
             style={{ width: "130px", height: "50px" }}
           >
             <svg
