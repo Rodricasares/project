@@ -50,10 +50,11 @@
 .item {
   display: flex;
   *margin: auto;
+  height: 10rem;
+  height: 10rem;
 
-  height: 16rem;
-  min-width: 16rem;
-  padding: 4rem;
+  min-width: 10rem;
+  padding: 2rem;
 }
 
 .item img {
@@ -70,7 +71,7 @@
   position: absolute;
   z-index: 3;
   left: 0em;
-  top: 470px;
+  top: 530px;
   /* opacity: 0.9; */
   margin-bottom: 20px;
   background-color: #fffdf7;

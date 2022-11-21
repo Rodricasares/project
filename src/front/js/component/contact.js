@@ -26,7 +26,7 @@ export const Contact = () => (
             {" "}
             <h1 className="title  fw-bold mb-3">Contactar</h1>
             <div className="col-md-6 offset-md-3 text-secondary">
-              <div className="input-group mb-3">
+              <div className="input-group ">
                 <span
                   className="input-group-text border border-0 bg-transparent"
                   id="basic-addon1"
@@ -45,20 +45,20 @@ export const Contact = () => (
                   <input
                   type="text"
                   name="name"
-                  className="form-control border border-0  bg-transparent formInput"
-                  placeholder="Username"
-                  aria-label="Username"
+                  className="form-control  bg-transparent formInput"
+                  placeholder="Name"
+                  aria-label="Name"
                   aria-describedby="basic-addon1"
                   required
                 />
+             
               </div>
-
-              <div className="input-group mb-3">
-                <span
-                  className="input-group-text border-0 bg-transparent iconContact"
-                  id="basic-addon1"
-                >
-                  <svg
+             
+                <div className="input-group">
+                    <span
+                    className="input-group-text border-0 bg-transparent iconContact"
+                   id="basic-addon1"                >
+                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="40"
                     height="40"
@@ -74,7 +74,7 @@ export const Contact = () => (
                 <input
                   type="email"
                   name="email"
-                  className="form-control border-0 bg-transparent formInput"
+                  className="form-control  bg-transparent formInput"
                   placeholder="Email"
                   aria-label="Email"
                   aria-describedby="basic-addon1"
@@ -82,7 +82,9 @@ export const Contact = () => (
                 />
               </div>
 
-              <div className="input-group mb-3">
+
+
+              <div className="input-group ">
                 <span
                   className="input-group-text border-0 bg-transparent iconContact"
                   id="basic-addon1"
@@ -101,13 +103,14 @@ export const Contact = () => (
                 <input
                   type="text"
                   name="phone"
-                  className="form-control border-0 bg-transparent formInput"
+                  className="form-control  bg-transparent formInput"
                   placeholder="Phone"
                   aria-label="Phone"
                   aria-describedby="basic-addon1"
                 />
+ </div>
 
-                <div className="input-group mt-3">
+                <div className="input-group mt-2">
                   <span className="input-group-text border-0 bg-transparent iconContact">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -121,10 +124,11 @@ export const Contact = () => (
                       <path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z" />
                     </svg>
                   </span>
-                  <textarea placeholder="Your Message" className="form-control border-0 bg-transparent formInput" name="message"  required></textarea>
+                  <textarea placeholder="Your Message" className="form-control  bg-transparent formInput" name="message"  required></textarea>
 
                 </div>
-              </div>
+
+
             </div>
             <div className="col-md-6 offset-md-3 mt-3">
                      <button type="submit" className="btn btn-dark mt-3 float-end">
@@ -145,7 +149,9 @@ export const Contact = () => (
 
 {/*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*/}
 
-            <div className="col-md-6 offset-md-3 text-center socialButton"><a
+         <div className="col-md-6 offset-md-3 d-flex justify-content-around socialButton rounded-pill bg-dark my-5">
+         <h4 className="text-light float-start  mt-4">Info de interés:</h4>       
+                            <a
         type="button"
         className="btn btn-danger m-4 rounded-circle"
         href="https://drive.google.com/file/d/1wHJ811HHx_J-83zxSEggyuZNLvo5ofgR/view?usp=sharing"

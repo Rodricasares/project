@@ -7,9 +7,7 @@ import wars from "../../img/wars.png";
 import gallery from "../../img/gallery.png";
 import portfolio from "../../img/portfolio.png";
 
-
-
-import { Link } from "react-router-dom";
+import { Link,NavLink } from "react-router-dom";
 import "../../styles/home.css";
 
 export const Project = () => (
@@ -40,127 +38,65 @@ export const Project = () => (
       <div className="container text-center">
        <div className="row align-items-center">
         {/*CARD_1 */}
+        
           <div className="col">
+  
+          <Link to="/task" >
             <div
-              className="card shadow-lg  mb-5 bg-body rounded"
-              style={{ width: "auto", height: "250px" }}
-            >
-              <div className="overflow">
-                <img className="card-img-top proj" src={travel} />
+              className="card shadow-lg  mb-5 bg-body rounded-4"
+              style={{ width: "auto", height: "250px" }} >
+                            <div className="overflow">
+                             <img className="card-img-top proj" src={travel} />
+                             <div class="card-img-overlay">
+                             <h4 className="card-title text-light float-start ">
+               <span class="badge bg-warning rounded-pill">Travel 360º</span>
+                  </h4></div>
               </div>
-              <div className="card-body">
-                <div className="d-flex justify-content-between">
-                  <h3 className="card-title">
-                    <strong>Travel 360º</strong>
-                  </h3>
-
-                  <Link to="/task">
-                    <button
-                      type="button"
-                      className="btn btn-warning rounded-circle"
-                      data-toggle="modal"
-                      data-target="#exampleModal"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        className="bi bi-info-circle"
-                        viewBox="0 0 16 16"
-                      >
-                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
-                      </svg>
-                    </button>
-                  </Link>
-                </div>
-              </div>
+                        
             </div>
-          </div>
 
+            </Link>
+         
+          </div>
           {/* CARD2  */}
 
           <div className="col">
-            <div
-              className="card shadow-lg  mb-5 bg-body rounded"
-              style={{ width: "auto", height: "250px" }}
-            >
+          <Link to="/taskOne">
+
+                  <div className="card shadow-lg  mb-5 bg-body rounded-4"
+              style={{ width: "auto", height: "250px" }}            >
               <div className="overflow">
                 <img className="card-img-top proj" src={login} />
+                <div class="card-img-overlay">
+                             <h4 className="card-title text-light float-start ">
+               <span class="badge bg-warning rounded-pill">Authentication With Flask React.js</span>
+                  </h4></div>
               </div>
-              <div className="card-body">
-                <div className="d-flex justify-content-between">
-                  <h4 className="card-title">
-                  <strong>Authentication With Flask React.js</strong>
-                  </h4>
-
-               
-
-                  <Link to="/taskOne">
-                    <button
-                      type="button"
-                      className="btn btn-warning rounded-circle"
-                      data-toggle="modal"
-                      data-target="#exampleModal"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        className="bi bi-info-circle"
-                        viewBox="0 0 16 16"
-                      >
-                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
-                      </svg>
-                    </button>
-                  </Link>
-                </div>
-              </div>
+              
             </div>
+            </Link>
           </div>
 
           {/*CARD3*/}
 
           <div className="col">
+   
+          <Link to="/taskTwo">
             <div
-              className="card shadow-lg  mb-5 bg-body rounded"
-              style={{ width: "auto", height: "250px" }}
-            >
+              className="card shadow-lg  mb-5 bg-body rounded-4"
+              style={{ width: "auto", height: "250px" }}            >
               <div className="overflow">
-                <img className="card-img-top proj" src={throne} />
+                         <img className="card-img-top proj" src={throne} />
+                         <div class="card-img-overlay">
+                             <h4 className="card-title text-light float-start ">
+               <span class="badge bg-warning rounded-pill">Game of throners API</span>
+                  </h4></div>
               </div>
-              <div className="card-body">
-                <div className="d-flex justify-content-between">
-                  <h3 className="card-title">
-                    <strong>Game of throners API</strong>
-                  </h3>
-
-                  <Link to="/taskTwo">
-                    <button
-                      type="button"
-                      className="btn btn-warning rounded-circle"
-                      data-toggle="modal"
-                      data-target="#exampleModal"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        className="bi bi-info-circle"
-                        viewBox="0 0 16 16"
-                      >
-                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
-                      </svg>
-                    </button>
-                  </Link>
-                </div>
-              </div>
+         
             </div>
+         
+            </Link>
+     
           </div>
         </div>
 
@@ -170,127 +106,67 @@ export const Project = () => (
 
           {/* CARD4  */}
 <div className="row align-items-center">
-          <div className="col m-1">
-            <div
-              className="card shadow-lg  mb-5 bg-body rounded"
-              style={{ width: "auto", height: "250px" }}
-            >
-              <div className="overflow">
-                <img className="card-img-top proj" src={wars} />
-              </div>
-              <div className="card-body">
-                <div className="d-flex justify-content-between">
-                  <h3 className="card-title">
-                    <strong>Star Wars API</strong>
-                  </h3>
 
-                  <Link to="/taskThree">
-                    <button
-                      type="button"
-                      className="btn btn-warning rounded-circle"
-                      data-toggle="modal"
-                      data-target="#exampleModal"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        className="bi bi-info-circle"
-                        viewBox="0 0 16 16"
-                      >
-                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
-                      </svg>
-                    </button>
-                  </Link>
-                </div>
-              </div>
-            </div>
+          <div className="col m-1">
+          <div className="col">
+   
+   <Link to="/taskThree">
+     <div
+       className="card shadow-lg  mb-5 bg-body rounded-4"
+       style={{ width: "auto", height: "250px" }}            >
+       <div className="overflow">
+                  <img className="card-img-top proj" src={wars} />
+                  <div class="card-img-overlay">
+                      <h4 className="card-title text-light float-start ">
+        <span class="badge bg-warning rounded-pill">Star Wars</span>
+           </h4></div>
+       </div>
+  
+     </div>
+  
+     </Link>
+
+   </div>
           </div>
 
           {/* CARD5 */}
 
           <div className="col m-1">
-            <div
-              className="card shadow-lg  mb-5 bg-body rounded"
-              style={{ width: "auto", height: "250px" }}
-            >
-              <div className="overflow">
-                <img className="card-img-top proj" src={gallery} />
-              </div>
-              <div className="card-body">
-                <div className="d-flex justify-content-between">
-                  <h3 className="card-title">
-                  <strong>Gallery Pictures</strong>
-                  </h3>
-
-               
-
-                  <Link to="/taskFour">
-                    <button
-                      type="button"
-                      className="btn btn-warning rounded-circle"
-                      data-toggle="modal"
-                      data-target="#exampleModal"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        className="bi bi-info-circle"
-                        viewBox="0 0 16 16"
-                      >
-                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
-                      </svg>
-                    </button>
-                  </Link>
-                </div>
-              </div>
-            </div>
+          <Link to="/taskFour">
+     <div
+       className="card shadow-lg  mb-5 bg-body rounded-4"
+       style={{ width: "auto", height: "250px" }}            >
+       <div className="overflow">
+                  <img className="card-img-top proj" src={gallery} />
+                  <div class="card-img-overlay">
+                      <h4 className="card-title text-light float-start ">
+        <span class="badge bg-warning rounded-pill">Gallery Pictures</span>
+           </h4></div>
+       </div>
+  
+     </div>
+  
+     </Link>
           </div>
 
           {/*CARD6*/}
 
           <div className="col m-1">
-            <div
-              className="card shadow-lg  mb-5 bg-body rounded"
-              style={{ width: "auto", height: "250px" }}
-            >
-              <div className="overflow">
-                <img className="card-img-top proj" src={portfolio} />
-              </div>
-              <div className="card-body">
-                <div className="d-flex justify-content-between">
-                  <h3 className="card-title">
-                    <strong>Portfolio</strong>
-                  </h3>
-
-                  <Link to="/taskFive">
-                    <button
-                      type="button"
-                      className="btn btn-warning rounded-circle"
-                      data-toggle="modal"
-                      data-target="#exampleModal"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        className="bi bi-info-circle"
-                        viewBox="0 0 16 16"
-                      >
-                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
-                      </svg>
-                    </button>
-                  </Link>
-                </div>
-              </div>
-            </div>
+          <Link to="/taskFive">
+     <div
+       className="card shadow-lg  mb-5 bg-body rounded-4"
+       style={{ width: "auto", height: "250px" }}            >
+       <div className="overflow">
+                  <img className="card-img-top proj" src={portfolio} />
+                  <div class="card-img-overlay">
+                      <h4 className="card-title text-light float-start ">
+        <span class="badge bg-warning rounded-pill">Portfolio</span>
+           </h4></div>
+       </div>
+  
+     </div>
+  
+     </Link>
           </div>
         </div>
         </div>

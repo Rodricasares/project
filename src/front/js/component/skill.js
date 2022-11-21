@@ -25,7 +25,7 @@ export const Skill = () => (
             <motion.div
               className="slider m-1"
               drag="x"
-              dragConstraints={{ right: 0, left: -2400 }}
+              dragConstraints={{ right: 0, left: -1870 }}
             >
               {images.map((image, index) => (
                 <motion.div className="item" key={index}>
