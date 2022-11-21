@@ -36,7 +36,8 @@ export const Project = () => (
         {/*******CARDS LINE ONE**********/}
 
         <div className="container text-center">
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 ">
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 ">
+
             {/*CARD_1 */}
 
             <div className="col">
@@ -111,7 +112,7 @@ export const Project = () => (
 
           {/* CARD4  */}
           <div class="container text-center">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
 
 
               <div className="col">
@@ -137,7 +138,7 @@ export const Project = () => (
 
               {/* CARD5 */}
 
-              <div className="col m-1">
+              <div className="col">
                 <Link to="/taskFour">
                   <div
                     className="card shadow-lg  mb-5 bg-body rounded-4"
@@ -157,7 +158,7 @@ export const Project = () => (
 
               {/*CARD6*/}
 
-              <div className="col m-1">
+              <div className="col">
                 <Link to="/taskFive">
                   <div
                     className="card shadow-lg  mb-5 bg-body rounded-4"
@@ -174,6 +175,8 @@ export const Project = () => (
 
                 </Link>
               </div>
+
+
             </div>
           </div>
 
