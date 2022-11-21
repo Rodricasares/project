@@ -59,6 +59,7 @@ body {
   overflow: hidden;
 }
 .proj {
+  object-fit: cover;
   height: 250px;
   transform: scale(1);
   transition: transform 0.5s ease;
