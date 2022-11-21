@@ -7,7 +7,7 @@ import wars from "../../img/wars.png";
 import gallery from "../../img/gallery.png";
 import portfolio from "../../img/portfolio.png";
 
-import { Link,NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "../../styles/home.css";
 
 export const Project = () => (
@@ -33,148 +33,156 @@ export const Project = () => (
         </div>
         <h1 className="title fw-bold mb-5">Proyectos</h1>
 
-      {/*******CARDS LINE ONE**********/}
+        {/*******CARDS LINE ONE**********/}
 
-      <div className="container text-center">
-       <div className="row align-items-center">
-        {/*CARD_1 */}
-        
-          <div className="col">
-  
-          <Link to="/task" >
-            <div
-              className="card shadow-lg  mb-5 bg-body rounded-4"
-              style={{ width: "auto", height: "250px" }} >
-                            <div className="overflow">
-                             <img className="card-img-top proj" src={travel} />
-                             <div class="card-img-overlay">
-                             <h4 className="card-title text-light float-start ">
-               <span class="badge bg-warning rounded-pill">Travel 360º</span>
-                  </h4></div>
-              </div>
-                        
+        <div className="container text-center">
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 ">
+            {/*CARD_1 */}
+
+            <div className="col">
+
+              <Link to="/task" >
+                <div
+                  className="card shadow-lg  mb-5 bg-body rounded-4"
+                  style={{ width: "auto", height: "250px" }} >
+                  <div className="overflow">
+                    <img className="card-img-top proj" src={travel} />
+
+                    <div class="card-img-overlay">
+                      <h4 className="card-title text-light float-start">
+                        <span class="badge bg-warning rounded-pill">Travel 360º</span>
+                      </h4></div>
+                  </div>
+
+                </div>
+
+              </Link>
+
+            </div>
+            {/* CARD2  */}
+
+            <div className="col">
+              <Link to="/taskOne">
+
+                <div className="card shadow-lg  mb-5 bg-body rounded-4"
+                  style={{ width: "auto", height: "250px" }}            >
+                  <div className="overflow">
+                    <img className="card-img-top proj" src={login} />
+
+                    <div class="card-img-overlay">
+                      <h4 className="card-title text-light float-start ">
+                        <span class="badge bg-warning rounded-pill">Authentication With Flask React.js</span>
+                      </h4></div>
+
+                  </div>
+
+                </div>
+              </Link>
             </div>
 
-            </Link>
-         
-          </div>
-          {/* CARD2  */}
+            {/*CARD3*/}
 
-          <div className="col">
-          <Link to="/taskOne">
+            <div className="col">
 
-                  <div className="card shadow-lg  mb-5 bg-body rounded-4"
-              style={{ width: "auto", height: "250px" }}            >
-              <div className="overflow">
-                <img className="card-img-top proj" src={login} />
-                <div class="card-img-overlay">
-                             <h4 className="card-title text-light float-start ">
-               <span class="badge bg-warning rounded-pill">Authentication With Flask React.js</span>
-                  </h4></div>
-              </div>
-              
+              <Link to="/taskTwo">
+                <div
+                  className="card shadow-lg  mb-5 bg-body rounded-4"
+                  style={{ width: "auto", height: "250px" }}            >
+                  <div className="overflow">
+                    <img className="card-img-top proj" src={throne} />
+                    <div class="card-img-overlay">
+                      <h4 className="card-title text-light float-start ">
+                        <span class="badge bg-warning rounded-pill">Game of throners API</span>
+                      </h4></div>
+
+
+                  </div>
+
+                </div>
+
+              </Link>
+
             </div>
-            </Link>
           </div>
 
-          {/*CARD3*/}
 
-          <div className="col">
-   
-          <Link to="/taskTwo">
-            <div
-              className="card shadow-lg  mb-5 bg-body rounded-4"
-              style={{ width: "auto", height: "250px" }}            >
-              <div className="overflow">
-                         <img className="card-img-top proj" src={throne} />
-                         <div class="card-img-overlay">
-                             <h4 className="card-title text-light float-start ">
-               <span class="badge bg-warning rounded-pill">Game of throners API</span>
-                  </h4></div>
-              </div>
-         
-            </div>
-         
-            </Link>
-     
-          </div>
-        </div>
-
-
-{/*********************************************CARDS LINE TWO***************************/}
+          {/*********************************************CARDS LINE TWO***************************/}
 
 
           {/* CARD4  */}
-<div className="row align-items-center">
+          <div class="container text-center">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
 
-          <div className="col m-1">
-          <div className="col">
-   
-   <Link to="/taskThree">
-     <div
-       className="card shadow-lg  mb-5 bg-body rounded-4"
-       style={{ width: "auto", height: "250px" }}            >
-       <div className="overflow">
-                  <img className="card-img-top proj" src={wars} />
-                  <div class="card-img-overlay">
-                      <h4 className="card-title text-light float-start ">
-        <span class="badge bg-warning rounded-pill">Star Wars</span>
-           </h4></div>
-       </div>
-  
-     </div>
-  
-     </Link>
 
-   </div>
+              <div className="col">
+
+                <Link to="/taskThree">
+                  <div
+                    className="card shadow-lg  mb-5 bg-body rounded-4"
+                    style={{ width: "auto", height: "250px" }}            >
+                    <div className="overflow">
+                      <img className="card-img-top proj" src={wars} />
+                      <div class="card-img-overlay">
+                        <h4 className="card-title text-light float-start ">
+                          <span class="badge bg-warning rounded-pill">Star Wars</span>
+                        </h4></div>
+                    </div>
+
+                  </div>
+
+                </Link>
+
+              </div>
+
+
+              {/* CARD5 */}
+
+              <div className="col m-1">
+                <Link to="/taskFour">
+                  <div
+                    className="card shadow-lg  mb-5 bg-body rounded-4"
+                    style={{ width: "auto", height: "250px" }}            >
+                    <div className="overflow">
+                      <img className="card-img-top proj" src={gallery} />
+                      <div class="card-img-overlay">
+                        <h4 className="card-title text-light float-start ">
+                          <span class="badge bg-warning rounded-pill">Gallery Pictures</span>
+                        </h4></div>
+                    </div>
+
+                  </div>
+
+                </Link>
+              </div>
+
+              {/*CARD6*/}
+
+              <div className="col m-1">
+                <Link to="/taskFive">
+                  <div
+                    className="card shadow-lg  mb-5 bg-body rounded-4"
+                    style={{ width: "auto", height: "250px" }}            >
+                    <div className="overflow">
+                      <img className="card-img-top proj" src={portfolio} />
+                      <div class="card-img-overlay">
+                        <h4 className="card-title text-light float-start ">
+                          <span class="badge bg-warning rounded-pill">Portfolio</span>
+                        </h4></div>
+                    </div>
+
+                  </div>
+
+                </Link>
+              </div>
+            </div>
           </div>
 
-          {/* CARD5 */}
 
-          <div className="col m-1">
-          <Link to="/taskFour">
-     <div
-       className="card shadow-lg  mb-5 bg-body rounded-4"
-       style={{ width: "auto", height: "250px" }}            >
-       <div className="overflow">
-                  <img className="card-img-top proj" src={gallery} />
-                  <div class="card-img-overlay">
-                      <h4 className="card-title text-light float-start ">
-        <span class="badge bg-warning rounded-pill">Gallery Pictures</span>
-           </h4></div>
-       </div>
-  
-     </div>
-  
-     </Link>
-          </div>
-
-          {/*CARD6*/}
-
-          <div className="col m-1">
-          <Link to="/taskFive">
-     <div
-       className="card shadow-lg  mb-5 bg-body rounded-4"
-       style={{ width: "auto", height: "250px" }}            >
-       <div className="overflow">
-                  <img className="card-img-top proj" src={portfolio} />
-                  <div class="card-img-overlay">
-                      <h4 className="card-title text-light float-start ">
-        <span class="badge bg-warning rounded-pill">Portfolio</span>
-           </h4></div>
-       </div>
-  
-     </div>
-  
-     </Link>
-          </div>
         </div>
-        </div>
-
-
-
 
       </div>
+
     </div>
   </div>
+
 );

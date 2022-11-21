@@ -24,6 +24,7 @@ body {
   font-family: "Architects Daughter", cursive;
   font-size: 28px;
 }
+
 .textAbout {
   color: #020202;
   font-size: 31px;
@@ -59,8 +60,9 @@ body {
   overflow: hidden;
 }
 .proj {
+  *display: flex;
   object-fit: cover;
-  height: 250px;
+ height: 250px;
   transform: scale(1);
   transition: transform 0.5s ease;
 }
