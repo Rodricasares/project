@@ -64,7 +64,7 @@ export const TaskTwo = () => {
         </a>{" "}
         <a
           className="btn btn-outline-dark text-center"
-          href="https://game-of-throners-api-i2qm.vercel.app/"
+          href="https://github.com/Rodricasares/Game-of-throners-API"
           target="_blank"
         >
           <svg
