@@ -79,7 +79,8 @@ export const TaskThree = () => {
           GitHub
         </a>{" "}
       </div>
-      {/*******************************************************************************************************************************/}
+
+      {/******************************************************************************************************************************************/}
 
       <div className="row  mx-2 line"></div>
 
@@ -117,8 +118,9 @@ export const TaskThree = () => {
               <path d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z" />
             </svg>
           </p>
-          <a href="https://swapi.dev/" className="stretched-link">Starwars API</a>
-          <p className="fw-normal"></p>
+
+          {/*<a href="https://swapi.dev/" className="stretched-link">Starwars API</a>*/}
+          <p className="fw-normal">https://swapi.dev/</p>
         </div>
         <div className="col">
           {" "}
