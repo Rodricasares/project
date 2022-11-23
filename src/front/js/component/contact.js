@@ -153,7 +153,7 @@ export const Contact = () => (
             <h4 className="text-light mt-2">Info de interés:</h4>
             <a
               type="button"
-              className="btn btn-danger  rounded-circle"
+              className="btn btn-outline-danger  rounded-circle"
               href="https://drive.google.com/file/d/1wHJ811HHx_J-83zxSEggyuZNLvo5ofgR/view?usp=sharing"
               download="CvRodrigo"
               target="_blank"
@@ -166,7 +166,7 @@ export const Contact = () => (
 
             <a
               type="button"
-              className="btn btn-info  rounded-circle"
+              className="btn btn-outline-info  rounded-circle"
               href="https://www.linkedin.com/in/rodrigo-cantudo/"
               target="_blank"
             >
@@ -182,7 +182,7 @@ export const Contact = () => (
               </svg>
             </a>
             <a
-              className="btn btn-dark rounded-circle"
+              className="btn btn-outline-light rounded-circle"
               href="https://github.com/Rodricasares"
               target="_blank"
             >
