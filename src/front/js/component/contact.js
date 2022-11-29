@@ -148,9 +148,8 @@ export const Contact = () => (
           </form>
 
           {/*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*BUTTONS*/}
-
           <div className="col-md-6 offset-md-3 d-flex justify-content-around socialButton rounded-pill p-3 bg-dark my-5">
-            <h4 className="text-light mt-2">Info de interés:</h4>
+            <h6 className="text-light mt-2">Info de interés:</h6>
             <a
               type="button"
               className="btn btn-outline-danger  rounded-circle"

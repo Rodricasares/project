@@ -28,7 +28,7 @@ export const About = () => (
               También tengo experiencia laboral en puestos de cara al público,
               tanto en inglés como en español. Mi deseo es seguir creciendo como
               desarrollador y como persona mediante el trabajo en equipo y
-              afrontando retos que permitan superar me cada día.
+              afrontando retos que permitan superarme cada día.
             </div>
             <div className="col-sm-4">
               <img
