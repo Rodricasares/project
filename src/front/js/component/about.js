@@ -35,7 +35,7 @@ export const About = () => (
                 className="img-fluid rounded rounded-circle border border-warning perfil mt-3 "
                 src={profile}
                 alt="Bootstrap"
-                style={{ width: "auto", height: "300px" }}
+                style={{ width: "auto", height: "250px" }}
               />
             </div>
           </div>

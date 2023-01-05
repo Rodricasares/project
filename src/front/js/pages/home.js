@@ -3,7 +3,7 @@ import "../../styles/home.css";
 import { About } from "../component/about";
 import { Header } from "../component/header";
 import { Project } from "../component/project";
-import { Skill } from "../component/skill";
+import { SkillOne } from "../component/skillOne";
 import { Contact } from "../component/contact";
 import { Nav } from "../component/nav";
 import { Navbar } from "../component/navbar";
@@ -30,7 +30,7 @@ export const Home = () => (
       <Project />
     </div>
     <div className="container-fluid skillHome">
-      <Skill />
+      <SkillOne />
     </div>
     <div className="container-fluid contact">
       <Contact />

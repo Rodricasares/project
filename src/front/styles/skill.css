@@ -3,24 +3,27 @@
   border: 1px dashed red;
   min-height: 10px;
 }
-*/
 
-/*SKILL*/
+
+
 
 .skill {
   position: relative;
   z-index: 1;
-  *background-image: url("https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+  width: 100%;
+  *height: 445px;
+   *background-image: url("https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
   *background-repeat: no-repeat;
   *background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 445px;
-  width: 100%;
+  
   *opacity: 90%;
 }
+*/
+/*SKILL*/
 .title-skill {
   font-family: "Oswald", sans-serif;
   color: #f2ce55;
@@ -47,12 +50,243 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+
+/*   css 
+
+
+.box {
+*background-image: url(https://unetway.com/uploads/blog/bf/d6/63/bfd663ec8fcd825c9200ee5a3d6496b3.png);
+*border-radius: 20px;
+*padding: 2px;
+*margin: 2px;
+*object-fit: contain;
+*border-color:#f2ce55; 
+
+
+}
+
+.bodySkill{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  *background-color: #f2ce55;
+}
+
+.box{
+  position: relative;
+  width: auto;
+  height: auto;
+  background-color:  #fffdf7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.box::before{
+content: '';
+position: absolute;
+width: 40px;
+height: 140px;
+background: linear-gradient(#f2ce55, #55d3f2);
+animation: animate 3s linear infinite;
+}
+.box::after{
+content: '';
+position: absolute;
+background: #fffdf7;
+border-radius: 16px;
+inset:4px;
+
+}
+@keyframes animate{
+0%{
+  transform: rotate(0deg);
+}
+100%{
+  transform: rotate(350deg);
+}
+}
+.box h2 {
+position: relative;
+z-index:10;
+  color: black;
+  font-size: 22px;
+}
+
+*/
+
+
+
+main{
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: nowrap;
+  cursor: pointer;
+}
+
+.boxSkill{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.habilidad{
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.icon0{
+  position: relative;
+  z-index: 10;
+  width: 80px;
+  height: 80px;
+  margin: 13px;
+  border-radius:50%;
+  transition: all .8s;
+}
+
+
+/* BUTTON COLOR*/
+.icon0:hover {
+  background-color: rgb(0, 89, 255);
+  box-shadow: 0 0 50px  rgb(0, 89, 255);
+}
+
+.icon0:hover:nth-child(2) {
+  background-color: rgba(255, 208, 0, 0.829);
+  box-shadow: 0 0 50px   rgba(255, 208, 0, 0.829);
+  }
+
+.icon0:hover:nth-child(3) {
+  background-color: rgba(251, 255, 0, 0.842);
+  box-shadow: 0 0 50px   rgba(251, 255, 0, 0.842);
+  }
+.icon0:hover:nth-child(4) {
+  background-color: rgba(15, 64, 228, 0.836);
+  box-shadow: 0 0 50px   rgba(15, 64, 228, 0.836);
+  }
+.icon0:hover:nth-child(5) {
+  background-color: rgba(113, 102, 212, 0.829);
+  box-shadow: 0 0 50px   rgba(113, 102, 212, 0.829);
+  }
+.icon0:hover:nth-child(6) {
+  background-color: rgba(238, 241, 47, 0.801);
+  box-shadow: 0 0 50px   rgba(238, 241, 47, 0.801);
+  }
+.icon0:hover:nth-child(7) {
+  background-color: rgba(214, 37, 140, 0.829);
+  box-shadow: 0 0 50px rgba(214, 37, 140, 0.829);
+  }
+.icon0:hover:nth-child(8) {
+  background-color: rgba(49, 199, 204, 0.829);
+  box-shadow: 0 0 50px rgba(49, 199, 204, 0.829);
+  }
+.icon0:hover:nth-child(9) {
+  background-color: rgba(224, 168, 46, 0.87);
+  box-shadow: 0 0 50px rgba(224, 168, 46, 0.87);
+  }
+.icon0:hover:nth-child(10) {
+  background-color: rgba(219, 16, 192, 0.596);
+  box-shadow: 0 0 50px rgba(219, 16, 192, 0.596);
+  }
+.icon0:hover:nth-child(11) {
+  background-color: rgba(197, 194, 21, 0.705);
+  box-shadow: 0 0 50px rgba(197, 194, 21, 0.705);
+  }     
+.icon0:hover:nth-child(12) {
+  background-color: rgba(66, 57, 65, 0.514);
+  box-shadow: 0 0 50px rgba(66, 57, 65, 0.514);
+}
+
+.icon0:hover:nth-child(13) {
+  background-color: rgba(25, 93, 170, 0.74);
+  box-shadow: 0 0 50px rgba(25, 93, 170, 0.74);
+  }
+/*----------------*/
+.icon2{
+  *color: rgba(215, 238, 12, 0.836);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.7rem;
+
+}
+
+svg circle {
+stroke-dasharray: 150;
+transition: all .8s ease-in-out;
+
+}
+
+.icon0:hover circle{
+  stroke-dasharray: 220;}
+
+
+.tooltipText{
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  *background-color: #f2ce55;
+  white-space: nowrap;
+  padding: 10px 15px;
+  border-radius: 7px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+
+}
+
+.tooltipText::before{
+
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+
+
+}
+.icon0:hover .tooltipText{
+
+top: -50%;
+visibility: visible;
+opacity: 1;
+}
+
+
+/* Css para modo slider
+
+
+.tecn{
+color: black;
+width: 3rem;
+height:3rem;
+float: left;
+margin: auto ;
+
+}
+
 .item {
   display: flex;
   *margin: auto;
   height: 10rem;
   height: 10rem;
-
   min-width: 10rem;
   padding: 2rem;
 }
@@ -72,9 +306,10 @@
   z-index: 3;
   left: 0em;
   top: 530px;
-  /* opacity: 0.9; */
+  opacity: 0.9; 
   margin-bottom: 20px;
   background-color: #fffdf7;
   margin: 0 auto;
   overflow-x: hidden;
 }
+*/
