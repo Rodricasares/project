@@ -11,8 +11,9 @@
   }
   
   .taskText {
-    font-size: 30px;
-    font-family: "Architects Daughter", cursive;
+    font-size: 25px;
+    color: #6C757D;
+    *font-family: "Architects Daughter", cursive;
   }
   .cover {
     *float: left;
