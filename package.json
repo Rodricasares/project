@@ -78,6 +78,7 @@
 		"@fortawesome/free-regular-svg-icons": "^6.2.1",
 		"@fortawesome/free-solid-svg-icons": "^6.2.1",
 		"@fortawesome/react-fontawesome": "^0.2.0",
+		"alembic": "^0.0.3",
 		"bootstrap-icons": "^1.10.2",
 		"framer-motion": "^4.1.17",
 		"jshint": "^2.13.5",
