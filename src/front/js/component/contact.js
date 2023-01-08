@@ -5,6 +5,7 @@ import "../../styles/home.css";
 export const Contact = () => (
   <div className="container">
     <div className="row ">
+
       <div className="col text-secondary">
         <div className="row">
           <svg
