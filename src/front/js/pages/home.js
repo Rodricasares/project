@@ -34,6 +34,8 @@ export const Home = () => (
       <SkillOne />
     </div>
     <div className="container-fluid contact">
+
+
       <Contact />
     </div>
   </div>
