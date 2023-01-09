@@ -35,6 +35,7 @@ export const TaskOne = () => {
         </p>
 
         <p className="taskText">
+
           Los usuarios deberán registrarse para seguidamente poder hacer login  y tener acceso a la plataforma. Un login de usuarios en el que recibirás el JSON Token (JWT), siendo así una navegación segura para tus usuarios en la que puedes utilizar en proyectos como puede ser una Red Social o cualquier plataforma que necesite de un registro de usuarios seguro.   </p>
 
 
